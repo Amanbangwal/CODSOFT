@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman Bangwal | Portfolio</title>
+    <style>
+        /* Global Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+            background: #f4f4f4;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+
+        header {
+            background: lightgreen;
+            color: whitesmoke;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        header h1 {
+            font-size: 60px;
+        }
+
+        header p {
+            font-size: 22px;
+        }
+
+        /* Section Styling */
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        section:nth-child(even) {
+            background: #ffffff;
+        }
+
+        section h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        /* About Section */
+        .about img {
+            width: 200px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        .about p {
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+
+        /* Skills Section */
+        .skills-list {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .skills-list li {
+            background: #007BFF;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 25px;
+            transition: 0.3s;
+        }
+
+        .skills-list li:hover {
+            background: #0056b3;
+        }
+
+        /* Projects Section */
+        .project-grid {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .project-card {
+            background: #fff;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            width: 45%;
+            margin: 15px 0;
+            padding: 20px;
+            transition: 0.3s;
+        }
+
+        .project-card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+        }
+
+        /* Resume Section */
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #218838;
+        }
+
+        /* Contact Section */
+        .contact a {
+            color: #007BFF;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .contact a:hover {
+            color: blue;
+        }
+
+        footer {
+            background: darkgrey;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div>
+        <h1>Aman Bangwal</h1>
+        <p>Interactive Frontend Designer | Web Developer</p>
+    </div>
+</header>
+
+<section class="about">
+    <div>
+        <h2>About Me</h2>
+        <img src="aman.jpg" alt="Profile photo"> 
+        <p>I'm an MCA 2nd-year student with a passion for designing interactive and user-friendly web interfaces. 
+            Proficient in HTML, CSS, and JavaScript, I love building responsive websites and web applications.</p>
+    </div>
+</section>
+
+<section class="skills">
+    <div>
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>Responsive Web Design</li>
+        </ul>
+    </div>
+</section>
+
+<section class="projects">
+    <div>
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="https://i.pinimg.com/736x/a2/6e/42/a26e42330d1517409842ff321f1fa906.jpg" alt="Food Delivery Website">
+                <h3>Food Delivery Website</h3>
+                <p>A responsive website for online food ordering built with HTML, CSS, and JavaScript.</p>
+            </div>
+            
+            <div class="project-card">
+                <img src="https://www.codewithrandom.com/wp-content/uploads/2022/09/Untitled-1200-%C3%97-720-px-7-5.png" alt="BMI Calculator">
+                <h3>BMI Calculator</h3>
+                <p>A simple BMI calculator that uses HTML, CSS, and JavaScript to evaluate body mass index.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="resume">
+    <div>
+        <h2>Resume</h2>
+        <a href="Aman-Bangwal-Resume.pdf" class="btn" download>Download My Resume (PDF)</a>
+    </div>
+</section>
+
+<section class="contact">
+    <div>
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:aman.bangwal@example.com">aman.bangwal@example.com</a></p>
+        <p>Phone no.: +91 7455789097</p>
+        <p>Connect with me on: 
+            <a href="https://linkedin.com/in/aman-bangwal" target="_blank">LinkedIn</a> | 
+            <a href="https://github.com/aman-bangwal" target="_blank">GitHub</a>
+        </p>
+    </div>
+</section>
+
+<footer>
+    <div>
+        <p>&copy; 2025 Aman Bangwal. All Rights Reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
